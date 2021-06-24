@@ -1,10 +1,19 @@
-let nombre = prompt ("nombre");
-let apellidos = prompt("apellidos");
- 
+
+
+var nombre = prompt("nombre:")
+var apellidos = prompt("apellidos:")
+//var nombreCompleto = (nombre + apellidos)
+
 function convertirNombre (nombre, apellidos){
-    let nombreTransformado = nombre.toLowerCase>();
-    let apellidosTransformados = apellidos.toUpperCase();
-    var nombreCompleto = nombreTransformado + " " +apellidosTransformados;
-    return nombreCompleto;
+    var nombreTranformado = nombre.toLowerCase()
+    var apellidosTransformados = apellidos.toUpperCase()
+    var nombreCompleto = nombreTranformado + " " +apellidosTransformados
+    return nombreCompleto
 }
-console.log (nombreCompleto);
+
+
+
+//ubaconsole.log(nombreCompelto)
+
+
+
